@@ -1,0 +1,14 @@
+ - Present form
+    -- The form needs TaxableIncome, TaxPaid, TaxDeductions and TaxOffsets
+ - Gather and validate input from user
+ - Process input
+ - Display results
+
+The calculation:
+  - Find the highest bracket the total income falls into. 
+  - Find the amount that exceeds the lower bounds of the that bracket
+  - Calculate the tax for that portion
+  - Sum the amounts for the previous brackets (this will be known)
+  - Add last calculation to previous bracket default amount summation.
+
+
